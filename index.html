@@ -145,7 +145,8 @@
   @media (max-width:720px){ .services{grid-template-columns:1fr} }
   .svc{padding-block:1.45rem;border-top:1px solid var(--rule)}
   .svc h3{font-size:1.16rem;font-weight:600;letter-spacing:-.015em}
-  .svc ul{list-style:none;margin:.7rem 0 0;padding:0}
+  .svc p{margin:.55rem 0 0;font-size:1rem;line-height:1.55;color:#4B4150;max-width:44ch}
+  .svc ul{list-style:none;margin:.95rem 0 0;padding:0}
   .svc li{font-size:.96rem;color:var(--muted);line-height:1.5;padding-left:.95rem;position:relative}
   .svc li::before{content:"";position:absolute;left:0;top:.68em;width:5px;height:1px;background:var(--orange)}
 
@@ -171,12 +172,6 @@
   .client h3{font-size:clamp(1.5rem,2.6vw,2rem);letter-spacing:-.025em}
   .client-kind{font-family:var(--sans);font-size:.82rem;font-weight:500;color:var(--muted)}
   .client p{margin-top:.95rem;color:#463C4A}
-  .engagement{
-    margin-top:1.5rem;padding:1.35rem 1.5rem;
-    background:var(--paper-2);border-left:3px solid var(--orange);
-  }
-  .engagement h4{font-size:1.02rem;font-weight:600;margin-bottom:.5rem}
-  .engagement p{margin-top:0;font-size:.99rem;color:#4B4150}
 
   .industries{margin-top:2.6rem;padding-top:1.5rem;border-top:1px solid var(--rule)}
   .industries .lbl{font-family:var(--sans);font-size:.84rem;font-weight:600;color:var(--muted);margin-bottom:.75rem}
@@ -272,26 +267,32 @@
       <div class="services">
         <div class="svc">
           <h3>Software development</h3>
+          <p>Products built end to end — from the first interface sketch through to a deployed release you can put in front of users.</p>
           <ul><li>Custom software</li><li>Mobile apps</li><li>Web applications</li></ul>
         </div>
         <div class="svc">
           <h3>IT consulting</h3>
+          <p>For teams deciding what to build, what to buy, and how systems that were never meant to talk to each other should fit together.</p>
           <ul><li>IT strategy</li><li>System integration</li><li>Project management</li></ul>
         </div>
         <div class="svc">
           <h3>Data science, AI and ML</h3>
+          <p>Over ten years of hands-on NLP and applied machine learning. We are interested in models that earn a place in a working product, not demonstrations.</p>
           <ul><li>Model evaluation and fine-tuning</li><li>Applied AI</li><li>LLM prompt engineering</li><li>Agentic AI systems</li><li>Natural language processing</li></ul>
         </div>
         <div class="svc">
           <h3>Cloud services</h3>
+          <p>Moving workloads onto cloud infrastructure and running them there, with an architecture and a monthly bill that both stay defensible.</p>
           <ul><li>Cloud migration</li><li>Infrastructure management</li><li>SaaS solutions</li></ul>
         </div>
         <div class="svc">
           <h3>Data management</h3>
+          <p>The plumbing everything else depends on: disparate sources normalised, joined, and made queryable by the people who need them.</p>
           <ul><li>ETL</li><li>Data pipelines</li><li>Data lakes and warehouses</li></ul>
         </div>
         <div class="svc">
           <h3>Support and maintenance</h3>
+          <p>Keeping live systems healthy long after launch, with someone senior on the other end when production misbehaves.</p>
           <ul><li>IT support</li><li>System monitoring</li><li>Technical troubleshooting</li></ul>
         </div>
       </div>
@@ -349,11 +350,6 @@
           <span class="client-kind">Business performance analytics, SaaS</span>
         </div>
         <p>didici is a predictive, cloud-based analytics platform for brands, retailers, F&amp;B operators, and leisure and hospitality providers. It brings every stream of performance data into one place so teams can see the whole picture and make strategic decisions from it. Unlike most BI tools, didici is cost-effective, straightforward to use, and fast to deploy.</p>
-
-        <div class="engagement">
-          <h4>Engagement: predicting membership renewals</h4>
-          <p>As AI and ML consultants, we proposed a machine-learning solution to improve member retention at the UK's leading operator of country clubs. The work covered the data pipelines needed to normalise disparate sources into the didici platform, then a phased approach to predicting the probability of non-renewal — so that sales teams receive a recommended intervention well before a membership expires.</p>
-        </div>
       </article>
 
       <article class="client">
